@@ -10,20 +10,21 @@ export const Sidebar = () => {
         <strong>Nathan Gonçalves</strong>
         <p>Engenheiro de Software</p>
       </div>
-      <div className='bg-gray-500 p-4 rounded-md flex flex-col items-start pl-5 shadow-md shadow-black'>
-        <label className="flex items-center gap-4"><MapPin size={20} /> teste</label>
-        <label className="flex items-center gap-4"><BriefcaseMetal size={20} />teste</label>
-        <label className="flex items-center gap-4"><GithubLogo size={20} />teste</label>
-        <label className="flex items-center gap-4"><LinkedinLogo size={20} />teste</label>
+      <div className='bg-gray-500  gap-3 p-2 rounded-xl flex flex-col shadow-md shadow-black h-[330px] '>
+        <label className="flex items-center gap-3 font-bold text-md text-purple-400 mx-10 py-5"><MapPin size={20} /> Campina Grande - PB</label>
+        <label className="flex items-center gap-3 font-bold text-md text-purple-400 mx-10 py-5"><BriefcaseMetal size={20} />Engenheiro de Software</label>
+        <label className="flex items-center gap-3 font-bold text-md text-purple-400 mx-10 py-5"><GithubLogo size={20} />@nathangoncalvesleon</label>
+        <label className="flex items-center gap-3 font-bold text-md text-purple-400 mx-10 py-5"><LinkedinLogo size={20} />@nathangoncalvesleon</label>
       </div>
-      <div className='bg-gray-500 rounded-md flex-col gap-2 flex w-auto shadow-md shadow-black'>
-        <strong className='font-bold ml-5'>Tecnologias</strong>
-        <div className='items-center   justify-center flex gap-5 w-[100%]'>
-          <label className='bg-purple-900 p-2 font-bold rounded-lg'>react</label>
-          <label>react</label>
-          <label>react</label>
-          <label>react</label>
-          <label>react</label>
+      <div className='bg-gray-500 rounded-md flex-col gap-2 flex w-auto shadow-md shadow-black p-6'>
+        <strong className='font-bold ml-5 mb-5'>Tecnologias</strong>
+        <div className=' grid grid-cols-3  gap-5 w-[100%]'>
+          <label className="bg-purple-800 flex justify-center items-center p-2 rounded-xl font-bold ">REACT</label>
+          <label className="bg-purple-800 flex justify-center items-center p-2 rounded-xl font-bold ">JAVA</label>
+          <label className="bg-purple-800 flex justify-center items-center p-2 rounded-xl font-bold ">PYTHON</label>
+          <label className="bg-purple-800 flex justify-center items-center p-2 rounded-xl font-bold ">REACT NATIVE</label>
+          <label className="bg-purple-800 flex justify-center items-center p-2 rounded-xl font-bold ">SQL</label>
+          <label className="bg-purple-800 flex justify-center items-center p-2 rounded-xl font-bold ">C</label>
         </div>
       </div>
 

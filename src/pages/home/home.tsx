@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <header><Header /></header>
 
-      <div className='flex flex-1 flex-row'
+      <div className='flex flex-1 flex-row '
       >
         <aside className=''>
           <Sidebar />
