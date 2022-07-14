@@ -6,14 +6,11 @@ import { Sidebar } from '../../components/sidebar/sidebar'
 export default function Home() {
   return (
     <>
-      <header><Header /></header>
-
-      <div className='flex flex-1 flex-row '
-      >
-        <aside className=''>
+      <div className="w-screen flex-col md:flex md:flex-row ">
+        <aside>
           <Sidebar />
         </aside>
-        <main className=''>
+        <main className="w-screen ">
           <Container />
         </main>
       </div>
